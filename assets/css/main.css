@@ -2538,7 +2538,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
-		background: #6e6570;
+		background: #393339;
 		border-radius: 4px;
 		border: 0;
 		color: #ffffff;
@@ -2559,7 +2559,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background: #393339;
+			background: #544d55;
 		}
 
 		input[type="submit"]:active,
@@ -2796,6 +2796,7 @@ input, select, textarea {
 		#header h1 {
 			font-size: 2.5em;
 			margin: 0;
+			text-shadow: 5px 5px 5px rgba(162,115,77);
 		}
 
 		#header p {
@@ -2983,6 +2984,12 @@ input, select, textarea {
 					line-height: 1.65em;
 				}
 
+			/* Footer */
+
+			#footer {
+				background-size: 1680px auto,					auto,					cover;
+			}
+
 	}
 
 /* Normal */
@@ -3066,7 +3073,7 @@ input, select, textarea {
 			#footer {
 				
 				background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/newFooter.jpeg");
-				background-size: 1600px 230px;
+				background-size: 1280px auto;
 				margin-top: -100px;
 				padding: calc(230px + 4em) 0 6em 0;
 			}
@@ -3093,6 +3100,11 @@ input, select, textarea {
 				font-size: 12pt;
 			}
 
+		/* Footer */
+		#footer {
+				background-size: 980px auto,					auto,					cover;
+			}
+
 	}
 
 /* Narrower */
@@ -3109,6 +3121,11 @@ input, select, textarea {
 			footer.major {
 				padding-left: 2em;
 				padding-right: 2em;
+			}
+
+		/* Footer */
+			#footer {
+				background-size: 840px auto,					auto,					cover;
 			}
 
 	}
@@ -3222,7 +3239,7 @@ input, select, textarea {
 
 			#footer {
 				background-image: url("images/top-3200.svg"), url("images/overlay.png"), url("../../images/newFooter.jpeg");
-				background-size: 1280px 184px;
+				background-size: 736px auto;
 				margin-top: -75px;
 				padding: calc(184px + 2em) 0 2em 0;
 			}
@@ -3298,6 +3315,7 @@ input, select, textarea {
 				margin-top: -100px;
 				padding-left: 1em;
 				padding-right: 1em;
+				background-size: 840px auto,					auto,					cover;
 			}
 
 				#footer .copyright li {
@@ -3387,7 +3405,7 @@ input, select, textarea {
 }
 
 .mainButton {
-		background: #544d55;
+		background:#393339;
 		border-radius: 4px;
 		border: 0;
 		color: #ffffff;
@@ -3403,7 +3421,7 @@ input, select, textarea {
 	}
 
 .mainButton:hover {
-				background: #393339;
+				background: #544d55;
 				color: #ffffff;
 				box-shadow: 10px 5px 5px rgba(162,115,77);
 			}
@@ -3441,3 +3459,4 @@ input, select, textarea {
 #footerButton:hover {
 				box-shadow: 10px 5px 5px rgba(162,115,77);
 			}
+
