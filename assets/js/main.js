@@ -41,9 +41,13 @@ function getArt(){
     .then(res => res.json()) // parse response as JSON
     .then(data => { 
         console.log(data)
-        document.querySelector('#titleName').innerText = data.data[0].title
-        document.querySelector('h4').innerText = data.data[0].thumbnail.alt_text
-        let identification = data.data[0].id
+
+        let myArray= data.data
+        let i= Math.floor(Math.random() * data.data.length);
+
+        document.querySelector('#titleName').innerText = data.data[i].title
+        document.querySelector('h4').innerText = data.data[i].thumbnail.alt_text
+        let identification = data.data[i].id
 
 
         fetch(`https://api.artic.edu/api/v1/artworks/${identification}`)

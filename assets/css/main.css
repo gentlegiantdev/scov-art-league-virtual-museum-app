@@ -3342,6 +3342,7 @@ input, select, textarea {
 		width: 30%;
 		height: auto;
 		margin: auto 35%;
+		text-align: center;
 }
 
 .box.alt.container button {
@@ -3352,11 +3353,11 @@ input, select, textarea {
 		font-size: 1rem;
 }
 
-.box.alt.container img {
+/* .box.alt.container img {
 		width: 75%;
 		height: auto;
 		margin: auto 12.5%;
-}
+} */
 
 #attributes {
 		width: 80%;
@@ -3460,3 +3461,26 @@ input, select, textarea {
 				box-shadow: 10px 5px 5px rgba(162,115,77);
 			}
 
+.mainImage {
+	width: 100%;
+	margin: 1% 0 0 0;  
+  border:solid 5vmin #eee;
+  border-bottom-color:#fff;
+  border-left-color:#eee;
+  border-radius:2px;
+  border-right-color:#eee;
+  border-top-color:#ddd;
+  box-shadow:10px 5px 5px rgba(162,115,77);
+}
+
+#directions1 {
+	display: block;
+	width: 100%;
+	margin: 2% 0 2% 0;
+}
+
+#directions2 {
+	display: block;
+	width: 100%;
+	margin: 0 0 0 0;
+}
