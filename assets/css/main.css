@@ -2793,8 +2793,8 @@ input, select, textarea {
 				position: relative;
 			}
 
-		#header h1 {
-			font-size: 2.5em;
+		#header div h1 {
+			font-size: 5em;
 			margin: 0;
 			text-shadow: 5px 5px 5px rgba(162,115,77);
 		}
@@ -3447,7 +3447,7 @@ input, select, textarea {
 .artist{
 		width: 50%;
 		height: 10%;
-		margin: 5% 25%;
+		margin: 2% 25% 5% 25%;
 		padding: 1.5% 3%;
 		background-color: white;
 		border: 2px solid #544d55;
@@ -3484,3 +3484,62 @@ input, select, textarea {
 	width: 100%;
 	margin: 0 0 0 0;
 }
+
+/* Header Animation  */
+
+/* .title-container {
+	width:100%;
+	border: 1px solid red;
+} */
+
+.title-word {
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #F0D848; 
+  --color-2: #E06C9F;
+  --color-3: #5BC0EB;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #544d55;
+	width: 100%;
+	float: left;
+}
+
+.title-word-2 {
+  --color-1: #E06C9F;
+  --color-2: #5BC0EB;
+  --color-3: #F0D848;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #544d55;
+	width: 100%;
+	float: left;
+}
+
+.title-word-3 {
+  --color-1: #5BC0EB;
+  --color-2: #F0D848;
+  --color-3: #E06C9F;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #544d55;
+	width: 100%;
+	float: left;
+}
+
+/* .title-word-4 {
+  --color-1: #3D8DAE;
+  --color-2: #DF8453;
+  --color-3: #E4A9A8;
+} */
+
+@keyframes color-animation {
+  0%    {color: var(--color-1)}
+  32%   {color: var(--color-1)}
+  33%   {color: var(--color-2)}
+  65%   {color: var(--color-2)}
+  66%   {color: var(--color-3)}
+  99%   {color: var(--color-3)}
+  100%  {color: var(--color-1)}
+}
+
+
