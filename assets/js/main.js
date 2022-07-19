@@ -33,7 +33,7 @@ document.querySelector('#txtSearch').addEventListener('keypress', function (e) {
     }
 });
 
-
+//pulls data from two separate Art Institute of Chicago API's
 function getArt(){
     let choice = document.querySelector('input').value
 
