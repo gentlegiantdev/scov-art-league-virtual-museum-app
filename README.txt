@@ -1,1 +1,0 @@
-Web application that allows virtual visits to the Art Institue of Chicago's collection. Made for as a marketing tool for a 65+ community.
